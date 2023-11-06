@@ -7,12 +7,22 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      roboto: ['Roboto', 'sans-serif'],
+      creteRound:['Crete Round','serif'],
+      poppins:['Poppins', 'sans-serif']
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors:{
+        "nav-black":"#3C3A39",
+        "main-background":"#1C1A19",
+        "app-orange":"#FF6B00",
+        "intro-white":"#FFF5E1"
       },
+      backgroundImage: {
+        'mobile-bg': "url('/src/images/illustration-header-mobile.png')",
+      }
+      
     },
   },
   plugins: [],
