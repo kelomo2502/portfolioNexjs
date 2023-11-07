@@ -6,7 +6,7 @@ import { techIcons, workCards } from "../data/data";
 export default function RecentWork() {
   console.log(uuid());
   return (
-    <section className="w-full px-6 pt-[120px]">
+    <section className="w-full px-6 pt-[120px] pb-12">
       <div className="creteRound text-[2.5rem] text-main-background border_bottom  mb-20">
         <h3 className="pb-6">My Recent Works</h3>
       </div>
@@ -56,7 +56,7 @@ export default function RecentWork() {
                   />
                 </div>
                 <div className="flex py-6 px-2">
-                  <button type="button" className="rounded-lg bg-nav-black text-white px-2 font-inter font-semibold text-sm">Tech Stack</button>
+                  <button type="button" className="rounded-lg bg-nav-black text-white px-2 font-inter font-semibold text-sm mr-2">Tech Stack</button>
                     {card.techStack.map(tech =>{
                       return <div key={uuid()}>
                         

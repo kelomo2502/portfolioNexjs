@@ -78,6 +78,10 @@ export const workCards = [
         techUrl:
           "https://raw.githubusercontent.com/kelomo2502/git_assets/main/nodejs.png"
       },
+      {
+        techUrl:
+          "https://raw.githubusercontent.com/kelomo2502/git_assets/main/mongodb.png"
+      },
     ],
   },
   {
@@ -109,6 +113,10 @@ export const workCards = [
         techUrl:
           "https://raw.githubusercontent.com/kelomo2502/git_assets/main/nodejs.png",
       },
+      {
+        techUrl:
+          "https://raw.githubusercontent.com/kelomo2502/git_assets/main/mongodb.png"
+      },
     ],
   },
   {
@@ -126,6 +134,10 @@ export const workCards = [
         techUrl:
           "https://raw.githubusercontent.com/kelomo2502/git_assets/main/redux.png",
       },
+      {
+        techUrl:
+          "https://raw.githubusercontent.com/kelomo2502/git_assets/main/mongodb.png"
+      },
     ],
   },
   {
@@ -142,6 +154,10 @@ export const workCards = [
       {
         techUrl:
           "https://raw.githubusercontent.com/kelomo2502/git_assets/main/redux.png",
+      },
+      {
+        techUrl:
+          "https://raw.githubusercontent.com/kelomo2502/git_assets/main/postgresql.png"
       },
     ],
   },
