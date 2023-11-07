@@ -17,7 +17,8 @@ const config: Config = {
         "nav-black":"#3C3A39",
         "main-background":"#1C1A19",
         "app-orange":"#FF6B00",
-        "intro-white":"#FFF5E1"
+        "intro-white":"#FFF5E1",
+        "border-black": "#212121"
       },
       backgroundImage: {
         'mobile-bg': "url('/src/images/illustration-header-mobile.png')",

@@ -6,7 +6,7 @@ export default function Intro() {
     <section className="bg-main-background w-full h-auto px-6 bg-mobile-bg relative">
       <div className="pt-[120px] font-creteRound font-normal text-app-orange w-full ">
         <h1 className="creteRound text-[56px]">Hey There.</h1>
-        <h2 className="creteRound text-[56px] mt-[-20px]">I’m Alex.</h2>
+        <h2 className="creteRound text-[56px] mt-[-20px]">I’m Kelvin.</h2>
       </div>
       <div className="my-3">
         <p className="text-intro-white font-roboto font-bold text-2xl">
