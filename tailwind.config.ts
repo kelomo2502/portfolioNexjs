@@ -10,7 +10,8 @@ const config: Config = {
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],
       creteRound:['Crete Round','serif'],
-      poppins:['Poppins', 'sans-serif']
+      poppins:['Poppins', 'sans-serif'],
+      inter:['Inter', 'sans-serif']
     },
     extend: {
       colors:{
@@ -18,7 +19,8 @@ const config: Config = {
         "main-background":"#1C1A19",
         "app-orange":"#FF6B00",
         "intro-white":"#FFF5E1",
-        "border-black": "#212121"
+        "border-black": "#212121",
+        "neutral-black":"#091E42",
       },
       backgroundImage: {
         'mobile-bg': "url('/src/images/illustration-header-mobile.png')",
