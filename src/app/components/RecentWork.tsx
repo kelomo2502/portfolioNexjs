@@ -5,9 +5,9 @@ import { uuid } from "uuidv4";
 import { techIcons, workCards } from "../data/data";
 export default function RecentWork() {
   return (
-    <section className="w-full px-6 pt-[120px] pb-12 md:px-16 lg:px-36">
+    <section className="w-full px-6 pt-[104px] pb-12 md:px-16 lg:px-36">
       <div className="creteRound text-[2.5rem] text-main-background border_bottom  md:border-b-0 mb-20 md:flex gap-4 md:items-center justify-between w-full">
-        <h3 className="pb-6 shrink-0 md:pt-3 text-center">My Recent Works</h3>
+        <h3 className="pb-6 shrink-0 md:pt-4 text-center">My Recent Works</h3>
         <div className="desktop_border"></div>
       </div>
       <div className="w-full mb-6">
