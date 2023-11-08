@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="mobile-menu cursor-pointer">&#9776;</div>
       </nav>
       {/* Desktop navbar */}
-      <nav className="hidden md:flex fixed top-0 z-40 w-full h-[72px] bg-nav-black text-white py-4 px-36 justify-between items-center">
+      <nav className="hidden md:flex fixed top-0 z-40 w-full h-[72px] bg-nav-black text-white py-4 md:px-16 lg:px-36 justify-between items-center">
       <div className="logo font-inter font-bold text-xl "><h2>Kelvin</h2></div>
       <ul className='flex items-center gap-4 font-inter font-semibold text-[15px] '>
         <li>Portoflio</li>

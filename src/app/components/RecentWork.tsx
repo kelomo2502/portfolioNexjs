@@ -4,11 +4,11 @@ import Image from "next/image";
 import { uuid } from "uuidv4";
 import { techIcons, workCards } from "../data/data";
 export default function RecentWork() {
-  console.log(uuid());
   return (
-    <section className="w-full px-6 pt-[120px] pb-12">
-      <div className="creteRound text-[2.5rem] text-main-background border_bottom  mb-20">
-        <h3 className="pb-6">My Recent Works</h3>
+    <section className="w-full px-6 pt-[120px] pb-12 md:px-16 lg:px-36">
+      <div className="creteRound text-[2.5rem] text-main-background border_bottom  md:border-b-0 mb-20 md:flex gap-4 md:items-center justify-between w-full">
+        <h3 className="pb-6 shrink-0 md:pt-3 text-center">My Recent Works</h3>
+        <div className="desktop_border"></div>
       </div>
       <div className="w-full mb-6">
         <Image
