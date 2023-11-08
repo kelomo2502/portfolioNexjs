@@ -25,8 +25,10 @@ export default function Intro() {
       </div>
 
      
-        <Image src="https://raw.githubusercontent.com/kelomo2502/git_assets/main/header-mobile.png" alt="mobile-header-img" width={147} height={409} className=" absolute right-0 bottom-[-40px]" />
-     
+        <Image src="https://raw.githubusercontent.com/kelomo2502/git_assets/main/header-mobile.png" alt="mobile-header-img" width={147} height={0} className=" absolute right-0 bottom-[-40px] md:hidden " />
+        
+        <Image src="https://raw.githubusercontent.com/kelomo2502/git_assets/main/desktop-img.png" alt="mobile-header-img" width={420} height={0} className="hidden md:block absolute right-0 bottom-0 " />
+        
 
     </section>
   );
