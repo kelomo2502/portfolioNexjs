@@ -21,6 +21,9 @@ const config: Config = {
         "intro-white":"#FFF5E1",
         "border-black": "#212121",
         "neutral-black":"#091E42",
+        "footer-neutral":"#172B4D",
+        "footer-border-bottom":"#DBD8D7",
+        "input-gray":"#979493"
       },
       backgroundImage: {
         'mobile-bg': "url('/src/images/illustration-header-mobile.png')",

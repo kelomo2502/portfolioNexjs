@@ -1,6 +1,6 @@
 import {TbBrandGithub} from 'react-icons/tb'
 import {RiLinkedinFill} from 'react-icons/ri'
-import {FaAngellist, FaMediumM} from 'react-icons/fa'
+import {FaAngellist, FaMediumM, FaTwitter} from 'react-icons/fa'
 
 export default function SocialIcons() {
   return (
@@ -8,6 +8,7 @@ export default function SocialIcons() {
         <TbBrandGithub />
         <RiLinkedinFill/>
         <FaAngellist/>
+        <FaTwitter/>
         <FaMediumM/>
     </section>
   )
