@@ -21,7 +21,7 @@ export default function Intro() {
         <p>don’t hesitate to contact me.</p>
       </div>
       <div className="social-icons mt-3">
-        <SocialIcons/>
+        <SocialIcons color="white"/>
       </div>
 
      

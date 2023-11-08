@@ -98,8 +98,9 @@ export default function Footer() {
             />
             <textarea
               name=""
-              className=" px-4 py-3 italic text-nav-black outline-none mb-6"
-            >
+              rows={5}
+              cols={10}
+              className=" px-4 py-3 italic text-nav-black outline-none mb-6 bg-text-area-bg">
               Write me something...
             </textarea>
             <button
@@ -111,8 +112,8 @@ export default function Footer() {
           </form>
         </div>
       </div>
-      <div className="social-icons footer_border_top bg-black test">
-           <SocialIcons/>
+      <div className="social-icons footer_border_top bg-white flex justify-center">
+           <SocialIcons color="black"/>
       </div>
       
     </footer>

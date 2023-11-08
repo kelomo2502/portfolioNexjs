@@ -23,7 +23,8 @@ const config: Config = {
         "neutral-black":"#091E42",
         "footer-neutral":"#172B4D",
         "footer-border-bottom":"#DBD8D7",
-        "input-gray":"#979493"
+        "input-gray":"#979493",
+        "text-area-bg":"#FBF8F7"
       },
       backgroundImage: {
         'mobile-bg': "url('/src/images/illustration-header-mobile.png')",
